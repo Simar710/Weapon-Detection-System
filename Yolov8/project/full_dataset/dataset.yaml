@@ -1,0 +1,13 @@
+train:
+ - C:/Users/manjo/4780/project/full_dataset/train/images
+
+val:
+ - C:/Users/manjo/4780/project/full_dataset/valid/images
+
+
+# number of classes
+nc: 12
+
+# class names
+names: ['rifle', 'knife', 'handgun', 'ax', 'sniper', 'pistol', 'shotgun', 'spear',
+ 'eto', 'cutter', 'cleaver', 'explosive']
