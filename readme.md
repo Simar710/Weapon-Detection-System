@@ -1,3 +1,12 @@
+For detailed explanation, graphs , comparisons and study, please refer to the pdf file.
+
+## Summary:
+- Spearheaded the development of a robust multi-class weapon detection and classification system, using advanced machine learning techniques. 
+- Integrated diverse weapon image datasets, over 7000 images, and employed two distinct classifiers: Feed Forward Neural Network and YOLOv8.
+- Utilized Python for script development, incorporating Keras for neural network training and evaluation, and OpenCV for data preprocessing. 
+- Optimized model using 5-Fold cross-validation for neural network training. 
+- Trained YOLOv8 on the entire dataset, enabling real-time weapon detection in both images and videos, with organization of training setups and directory structures.
+
 # Neural Network Training and Evaluation with K-Fold Cross-Validation
 This Python script demonstrates the training and evaluation of a feed forward neural network classifier using 5-Fold cross-validation. The algorithm uses 1 hidden layer with 40 nodes hidden nodes and a learning rate of 0.03 in 30 epochs. The data is truncated to only 500 images due to memory size limitations when training the model on the entire dataset of 7000 images.
 
