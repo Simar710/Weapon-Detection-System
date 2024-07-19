@@ -1,4 +1,4 @@
-For detailed explanation, graphs , comparisons and study, please refer to the pdf file.
+For detailed explanation, graphs , comparisons and study, please refer to the **Final Report.pdf** file.
 
 ## Summary:
 - Spearheaded the development of a robust multi-class weapon detection and classification system, using advanced machine learning techniques. 
