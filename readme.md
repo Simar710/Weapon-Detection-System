@@ -77,8 +77,7 @@ Weapon-Detection-System/
 The FNN classifier is a traditional multilayer perceptron designed for weapon classification:
 
 - **Input Layer**: Flattened image tensor (416 × 416 × 3 = 519,168 input features)
-- **Hidden Layer**: 1 hidden layer with 40 neurons
-- **Activation Function**: Sigmoid activation
+- **Hidden Layer**: 1 hidden layer with 40 neurons (sigmoid activation)
 - **Output Layer**: 12 neurons with softmax activation (one per weapon class)
 - **Optimizer**: Stochastic Gradient Descent (SGD)
 
