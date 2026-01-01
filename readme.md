@@ -1,4 +1,17 @@
-For detailed explanation, graphs , comparisons and study, please refer to the **Final Report.pdf** file.
+# Weapon Detection System
+
+For detailed explanation, graphs, comparisons and study, please refer to the **Final Report.pdf** file.
+
+## 📚 Tech Stack & Tools
+For a comprehensive overview of all technologies, tools, libraries, and concepts used in this project, see **[TECH_STACK.md](TECH_STACK.md)**.
+
+**Quick Overview:**
+- **Languages**: Python 3.9+
+- **Deep Learning**: TensorFlow 2.14, Keras 2.14, PyTorch 2.1, Ultralytics YOLOv8
+- **Computer Vision**: OpenCV 4.8+
+- **Data Processing**: NumPy, Pandas, Matplotlib, Seaborn, scikit-learn
+- **Models**: Feed Forward Neural Network (FNN) & YOLOv8n
+- **Dataset**: 7000+ weapon images across 12 classes
 
 ## Summary:
 - Spearheaded the development of a robust multi-class weapon detection and classification system, using advanced machine learning techniques. 
