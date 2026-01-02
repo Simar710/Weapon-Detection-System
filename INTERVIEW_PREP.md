@@ -228,6 +228,8 @@ Hyperparameters are settings you choose before training that control how the mod
   - Too high: Model doesn't learn properly (jumps around)
   - Too low: Training takes forever
 - **Epochs (30):** How many times the model sees the entire dataset
+  - Chosen through experimentation to balance training time and accuracy
+  - More epochs risk overfitting, fewer may underfit
 - **Hidden Neurons (40):** How many neurons in the hidden layer
 - **Batch Size:** How many images to process before updating weights
 
@@ -332,7 +334,7 @@ OpenCV (Open Source Computer Vision Library) is a tool that helps process images
 **Example operation:**
 ```python
 image = cv2.imread('weapon.jpg')  # Load image
-image = cv2.resize(image, (640, 640))  # Resize to 640x640
+image = cv2.resize(image, (640, 640))  # Resize to 640x640 (YOLO standard input size)
 ```
 
 ---
@@ -502,7 +504,7 @@ Each image has a `.txt` file with same name:
 ```
 
 **Classes (12 total):**
-0=rifle, 1=knife, 2=handgun, 3=ax, 4=sniper, 5=pistol, 6=shotgun, 7=spear, 8=eto, 9=cutter, 10=cleaver, 11=explosive
+0=rifle, 1=knife, 2=handgun, 3=ax, 4=sniper, 5=pistol, 6=shotgun, 7=spear, 8=eto (traditional weapon), 9=cutter, 10=cleaver, 11=explosive
 
 **Why 80/20 split:**
 - 80% for training (model learns from this)
@@ -868,7 +870,7 @@ Applied to image pixels before feeding to both FNN and YOLO.
 - **YOLO:** 640×640 images, batch size 16, IoU threshold 0.7
 - **Split:** 80% training, 20% validation
 - **Cross-validation:** 5-fold for FNN
-- **Libraries:** TensorFlow 2.14, PyTorch 2.1, OpenCV 4.8, Ultralytics YOLOv8
+- **Libraries:** TensorFlow 2.14, PyTorch 2.1, OpenCV 4.8, Ultralytics YOLOv8 8.0.219+
 
 ---
 
