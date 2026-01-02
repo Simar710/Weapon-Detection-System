@@ -13,6 +13,9 @@ For a comprehensive overview of all technologies, tools, libraries, and concepts
 - **Models**: Feed Forward Neural Network (FNN) & YOLOv8n
 - **Dataset**: 7000+ weapon images across 12 classes
 
+## 🎯 Interview Preparation
+Preparing for AI/ML interviews? Check out **[INTERVIEW_PREP.md](INTERVIEW_PREP.md)** - a comprehensive guide with 30+ interview questions and answers derived from this project, explained in simple language. Covers ML concepts, deep learning, computer vision, and technical implementation.
+
 ## Summary:
 - Spearheaded the development of a robust multi-class weapon detection and classification system, using advanced machine learning techniques. 
 - Integrated diverse weapon image datasets, over 7000 images, and employed two distinct classifiers: Feed Forward Neural Network and YOLOv8.
